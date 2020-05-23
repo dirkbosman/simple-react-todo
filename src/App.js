@@ -1,11 +1,28 @@
-import React from "react";
+import React, {useState} from "react";
 import ReactDom from "react-dom";
 
-// component -> Capital letter (fits with name of file)
+const initialState = [1,2,3];
+
+// create App component
 const App = () => {
-    return <div>Thanks Abhi</div>;
+    
+    // "todos"-house with "setTodos"-function as door to edit/add/delete into house.
+    const [todos, setTodos]  = useState(initialState);
+
+    const addItem = () => {
+        setTodos([...todos, todos.length+1]);
+    };
+    
+    // we need to use "map" and not "foreach" or "for" to change the [1,2,3]- object.
+    const todosMarkup = todos.map((item) => <li key={item}>{item}</li>);
+
+    return (
+        <div>
+            <button onClick={addItem}>Add</button>
+            {todosMarkup}
+        </div>
+    );
 }
 
-// "app"-element-id needs to be rendered first, for "App"-component (to understand it)
-// and be pushed into it. 
+
 ReactDom.render(<App />, document.getElementById("app"));
