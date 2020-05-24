@@ -8,7 +8,7 @@
 2. Future Dev Ideas (🕰️):
 * Add sqlite database
 * Add multiple "pre" to-do list templates for users to copy
-* Download component for users to export their lists on the fly
+* Download-component for users to export their lists on the fly
 * Emoji-based to-do lists
 
 ## Showcase App:
