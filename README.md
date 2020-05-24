@@ -1,10 +1,20 @@
 # react-todo-app
 
-Enclosed you will find a simple To-Do list app, which allows you to *add* or *delete* and item (view screenshots below).
+## Summary:
+Enclosed in `src` you will find a simple **To-Do App**, which allows you to perform simple CRUD:
+* *add* an item
+* *edit* an item
+* *delete* an item
 
-![add_item](/showcase/add_item.png)
-![edit_item](/showcase/edit_item.png)
+### Item List
 ![item_list.png](/showcase/item_list.png)
+
+### Add Item To List
+![add_item](/showcase/add_item.png)
+
+### Edit Item From List
+![edit_item](/showcase/edit_item.png)
+
 
 ---
 
