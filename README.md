@@ -1,7 +1,7 @@
 # react-todo-app
 
 
-![add_item](/showcase/add_item.png =100x20)
+![add_item](/showcase/add_item.png){:height="36px" width="36px"}
 ![edit_item](/showcase/edit_item.png)
 ![item_list.png](/showcase/item_list.png.png)
 
