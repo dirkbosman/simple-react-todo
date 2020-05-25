@@ -13,7 +13,6 @@ const App = () => {
   const [editIndex, setEditIndex] = useState(-1);
 
   const addItem = () => {
-    // setTodos([...todos, parseInt(todos[todos.length - 1]) + 1]);
     setTodos([...todos, "(your new item)"]);
   };
 
